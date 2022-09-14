@@ -18,7 +18,7 @@ import percentage from './percentage.js';
 import similarityOfStrings from './similarityOfStrings.js';
 
 
-export default {ajaxRequest,
+export {ajaxRequest,
     binarySearch,
     checkMobileBrowser,
     compressImage,

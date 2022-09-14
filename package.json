@@ -1,0 +1,20 @@
+{
+  "name": "js-utilities",
+  "version": "1.0.0",
+  "description": "Helpful JavaScript functions for network requests, formatting, processing, and more",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BYBE-INC/js-utilities.git"
+  },
+  "author": "Vitaliy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BYBE-INC/js-utilities/issues"
+  },
+  "homepage": "https://github.com/BYBE-INC/js-utilities#readme"
+}
