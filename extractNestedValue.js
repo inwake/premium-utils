@@ -1,4 +1,4 @@
-function extractNestedValue( object, keys ) {
+export default function extractNestedValue( object, keys ) {
 	try {
 		var value = object;
 		keys.forEach( key => {
@@ -10,5 +10,3 @@ function extractNestedValue( object, keys ) {
 	}
 	
 }
-
-export default extractNestedValue;

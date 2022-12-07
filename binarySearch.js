@@ -1,4 +1,4 @@
-function binarySearch(array, value) {
+export default function binarySearch(array, value) {
     let start = 0;
     let end = array.length -1;
     let index = Math.floor( ( array.length / 2 ) );
@@ -9,5 +9,3 @@ function binarySearch(array, value) {
     }
     return array[index] === value ? index : -1;
 }
-
-export default binarySearch;

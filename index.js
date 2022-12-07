@@ -16,6 +16,9 @@ import parseRailsErrors from './parseRailsErrors.js';
 import parseUrlParams from './parseUrlParams.js';
 import percentage from './percentage.js';
 import similarityOfStrings from './similarityOfStrings.js';
+import formatMoneyCondensed from './formatMoneyCondensed.js';
+import formatDate from './formatDate.js';
+import truncateStringPreservingWords from './truncateStringPreservingWords.js';
 
 
 export {ajaxRequest,
@@ -35,4 +38,7 @@ export {ajaxRequest,
     parseRailsErrors,
     parseUrlParams,
     percentage,
-    similarityOfStrings};
+    similarityOfStrings,
+    formatMoneyCondensed,
+    formatDate,
+    truncateStringPreservingWords};

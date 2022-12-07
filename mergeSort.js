@@ -1,4 +1,4 @@
-function mergeSort(arr){
+export default function mergeSort(arr){
     function merge(arr1, arr2){
         let results = [];
         let i = 0;
@@ -28,5 +28,3 @@ function mergeSort(arr){
     let right = mergeSort(arr.slice(mid));
     return merge(left, right);
 }
-
-export default mergeSort;

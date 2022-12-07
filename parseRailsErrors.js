@@ -1,4 +1,4 @@
-function parseRailsErrors(errors) {
+export default function parseRailsErrors(errors) {
 	let errorMessages = [];	
 	Object.entries( errors ).forEach( error => {
 		if (error[1].length) {
@@ -9,5 +9,3 @@ function parseRailsErrors(errors) {
 	} )
 	return errorMessages;
 }
-
-export default parseRailsErrors;

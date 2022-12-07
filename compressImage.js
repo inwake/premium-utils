@@ -1,4 +1,4 @@
-function compressImage(image, quality, callback) {
+export default function compressImage(image, quality, callback) {
 	var fileReader = new FileReader();
 
 	fileReader.onload = function (event) {
@@ -32,5 +32,3 @@ function compressImage(image, quality, callback) {
 
     }
 }
-
-export default compressImage;

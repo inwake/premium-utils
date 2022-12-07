@@ -1,5 +1,4 @@
-function ajaxRequest(httpVerb, location, config) {
-
+export default function ajaxRequest(httpVerb, location, config) {
     let url = location;
     let requestBody;
     let requestHeaders = [];
@@ -19,7 +18,6 @@ function ajaxRequest(httpVerb, location, config) {
 
     if (config) {
         Object.keys(config).forEach( key => {
-
             switch (key) {
                 case 'params':
                     let queryString = '?';
@@ -50,19 +48,15 @@ function ajaxRequest(httpVerb, location, config) {
                 default:
                     break;
             }
-    
         } );
     }
 
     let promise = new Promise( ( resolve, reject ) => {
-
         xhr.open( httpVerb.toUpperCase(), url );
         requestHeaders.forEach( header => xhr.setRequestHeader( header[0], header[1] ) );
 
         xhr.onreadystatechange = function () {
-
             if (xhr.readyState === XMLHttpRequest.DONE) {
-
                 if (xhr.responseText) try { response.body = JSON.parse(xhr.responseText) } catch (err) {};
                 const rawResponseHeaders = xhr.getAllResponseHeaders().trim().split(/[\r\n]+/);
                 response.headers = {};
@@ -84,14 +78,10 @@ function ajaxRequest(httpVerb, location, config) {
                     reject(response);
                 }
             }
-
         };
 
         xhr.send( requestBody );
-    
     } );
 
     return promise;
 }
-
-export default ajaxRequest;

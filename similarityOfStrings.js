@@ -1,4 +1,4 @@
-function similarityOfStrings(s1, s2) {
+export default function similarityOfStrings(s1, s2) {
     var longer = s1;
     var shorter = s2;
 
@@ -44,5 +44,3 @@ function editDistance(s1, s2) {
     
     return costs[s2.length];
 }
-
-export default similarityOfStrings;

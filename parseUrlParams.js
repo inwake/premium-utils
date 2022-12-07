@@ -1,4 +1,4 @@
-function parseUrlParams(rawParams) {
+export default function parseUrlParams(rawParams) {
     rawParams = rawParams.split('?')[1];
     rawParams = rawParams.replace(/^/,'&');
     rawParams = rawParams.split(/[&]/);
@@ -15,5 +15,3 @@ function parseUrlParams(rawParams) {
 
     return params;
 }
-
-export default parseUrlParams;
