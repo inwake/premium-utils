@@ -19,9 +19,11 @@ import similarityOfStrings from './similarityOfStrings.js';
 import formatMoneyCondensed from './formatMoneyCondensed.js';
 import formatDate from './formatDate.js';
 import truncateStringPreservingWords from './truncateStringPreservingWords.js';
+import vibrantColors from './vibrantColors.js';
 
 
-export {ajaxRequest,
+export {
+    ajaxRequest,
     binarySearch,
     checkMobileBrowser,
     compressImage,
@@ -41,4 +43,6 @@ export {ajaxRequest,
     similarityOfStrings,
     formatMoneyCondensed,
     formatDate,
-    truncateStringPreservingWords};
+    truncateStringPreservingWords,
+    vibrantColors
+};
