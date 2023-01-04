@@ -1,4 +1,4 @@
-import imgUrlToBase64 from "./imgUrlToBase64";
+import imgUrlToBase64 from "./imgUrlToBase64.js";
 
 
 export default function vibrantColors(imageSrc, brightnessMax, brightnessMin, saturationMin, hueDiffrence) {
