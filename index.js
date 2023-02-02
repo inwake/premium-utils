@@ -20,6 +20,8 @@ import formatMoneyCondensed from './formatMoneyCondensed.js';
 import formatDate from './formatDate.js';
 import truncateStringPreservingWords from './truncateStringPreservingWords.js';
 import vibrantColors from './vibrantColors.js';
+import uuid from './uuid.js';
+import pSBC from './pSBC.js';
 
 
 export {
@@ -44,5 +46,7 @@ export {
     formatMoneyCondensed,
     formatDate,
     truncateStringPreservingWords,
-    vibrantColors
+    vibrantColors,
+    uuid,
+    pSBC
 };
