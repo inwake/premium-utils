@@ -1,6 +1,6 @@
 {
   "name": "js-utilities",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Helpful JavaScript functions for network requests, formatting, processing, and more",
   "main": "index.js",
   "type": "module",
