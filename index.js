@@ -18,6 +18,7 @@ import percentage from './percentage.js';
 import similarityOfStrings from './similarityOfStrings.js';
 import formatMoneyCondensed from './formatMoneyCondensed.js';
 import formatDate from './formatDate.js';
+import formatUtcDate from './formatUtcDate.js';
 import truncateStringPreservingWords from './truncateStringPreservingWords.js';
 import vibrantColors from './vibrantColors.js';
 import uuid from './uuid.js';
@@ -45,6 +46,7 @@ export {
     similarityOfStrings,
     formatMoneyCondensed,
     formatDate,
+    formatUtcDate,
     truncateStringPreservingWords,
     vibrantColors,
     uuid,
