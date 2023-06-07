@@ -1,11 +1,12 @@
 // Test functions from console with node
-// node -e "import('./emailValid.js').then((i) => {console.log(i.default('test@bybeapp..com') ? true : false)})"
+// node -e "import('./daysAgoDate.js').then((i) => {console.log(i.default( 69 )})"
 
 import ajaxRequest from './ajaxRequest.js';
 import binarySearch from './binarySearch.js';
 import checkMobileBrowser from './checkMobileBrowser.js';
 import compressImage from './compressImage.js';
 import daysAgoDate from './daysAgoDate.js';
+import daysAfterDate from './daysAfterDate.js';
 import extractNestedValue from './extractNestedValue.js';
 import emailValid from './emailValid.js';
 import formatMoney from './formatMoney.js';
@@ -35,6 +36,7 @@ export {
   checkMobileBrowser,
   compressImage,
   daysAgoDate,
+  daysAfterDate,
   extractNestedValue,
   emailValid,
   formatMoney,
