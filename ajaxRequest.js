@@ -1,4 +1,25 @@
 export default function ajaxRequest(httpVerb, location, config) {
+    /// <summary>Async network requests.
+    ///     IMPORTANT: Returns a promise which resolves
+    ///     to the response object if the request status code is 2xx and rejects
+    ///     to the response object for all other status codes.
+    ///     Do not use success property on response. Rejection handling is required here.</summary>
+    /// <param name="httpVerb" type="String">HTTP Verb - GET, POST, PUT etc.</param>
+    /// <param name="url" type="String">URL - without query params.
+    ///     Query params can be added as key value pairs of an optional
+    ///     params property of the config object.
+    ///     ONLY if params property is not present on config object,
+    ///     query params can be included directly in the url string.</param>
+    /// <param name="config" type="Object">Optional config object.
+    ///     config object can have the following properties:
+    ///     params: Object - key value pairs of query params.
+    ///     body: Object or FormData as the request body.
+    ///     headers: Array - array of objects with one key value pair each.
+    ///         Each key value pair is a header name and header value.
+    ///     json: Boolean - true if request body is json.
+    ///         If true, Accept and Content-Type headers are added to the request.
+    /// <returns type="Number">The area.</returns>
+
     let url = location;
     let requestBody;
     let requestHeaders = [];
