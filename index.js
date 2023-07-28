@@ -1,5 +1,5 @@
 // Test functions from console with node
-// node -e "import('./daysAgoDate.js').then((i) => {console.log(i.default( 69 )})"
+// node -e "import('./daysAgoDate.js').then( (module) => {console.log( module.default(69)} )"
 
 import ajaxRequest from './ajaxRequest.js';
 import binarySearch from './binarySearch.js';
@@ -29,6 +29,7 @@ import vibrantColors from './vibrantColors.js';
 import rgbToAbgr from './rgbToAbgr.js';
 import uuid from './uuid.js';
 import pSBC from './pSBC.js';
+import spliceStr from './spliceStr.js';
 
 export {
   ajaxRequest,
@@ -58,5 +59,6 @@ export {
   vibrantColors,
   rgbToAbgr,
   uuid,
-  pSBC
+  pSBC,
+  spliceStr
 }

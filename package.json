@@ -1,6 +1,6 @@
 {
   "name": "js-utilities",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Helpful JavaScript functions for network requests, formatting, processing, and more",
   "main": "index.js",
   "type": "module",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/BYBE-INC/js-utilities.git"
   },
-  "author": "Vitaliy",
+  "author": "inwake",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/BYBE-INC/js-utilities/issues"
