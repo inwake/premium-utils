@@ -1,12 +1,10 @@
 export default function splicedStr(s, i, val) {
   const {start, end} = s.split('')
-    .reduce(function ({start, end}, char, charI) {
-      if (charI < i)
-        start = start.concat(char)
+    .reduce(function({start, end}, char, charI) {
+      if (charI < i) start = start.concat(char)
       else end = end.concat(char)
       return {start, end}
-    },
-      {start: '', end: ''})
+    }, {start: '', end: ''})
   return start
     .concat(val)
     .concat(end)
