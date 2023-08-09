@@ -24,6 +24,7 @@ import similarityOfStrings from './similarityOfStrings.js';
 import formatMoneyCondensed from './formatMoneyCondensed.js';
 import formatDate from './formatDate.js';
 import formatUtcDate from './formatUtcDate.js';
+import currentDaySegment from './currentDaySegment.js';
 import truncateStringPreservingWords from './truncateStringPreservingWords.js';
 import vibrantColors from './vibrantColors.js';
 import rgbToAbgr from './rgbToAbgr.js';
@@ -55,6 +56,7 @@ export {
   formatMoneyCondensed,
   formatDate,
   formatUtcDate,
+  currentDaySegment,
   truncateStringPreservingWords,
   vibrantColors,
   rgbToAbgr,
