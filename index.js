@@ -5,7 +5,8 @@ import {currentDaySegment,
   formatDate,
   formatUtcDate,
   daysAfterDate,
-  daysAgoDate} from './dateUtils/index.js'
+  daysAgoDate,
+  randDate} from './dateUtils/index.js'
 
 import ajaxRequest from './ajaxRequest.js';
 import binarySearch from './binarySearch.js';
@@ -40,6 +41,7 @@ export {
   formatUtcDate,
   daysAfterDate,
   daysAgoDate,
+  randDate,
   // Other utils
   ajaxRequest,
   binarySearch,
