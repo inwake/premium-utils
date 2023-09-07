@@ -16,6 +16,7 @@
 *   for the current day segment.
 */
 
+export {currentDaySegment}
 export default function currentDaySegment(
   {a='night',
     b='morning',

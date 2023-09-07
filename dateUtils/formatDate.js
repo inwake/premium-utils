@@ -1,3 +1,4 @@
+export {formatDate}
 export default function formatDate(date,
   separator = '.',
   order = ['month', 'day', 'year']) {

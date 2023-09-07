@@ -1,3 +1,4 @@
+export {formatUtcDate}
 export default function formatUtcDate(date, separator = '.', order=['month', 'day', 'year']) {
   const month = date.getUTCMonth() + 1;
   const day = date.getUTCDate();

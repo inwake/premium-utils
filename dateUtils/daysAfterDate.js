@@ -1,3 +1,4 @@
+export {daysAfterDate}
 export default function daysAfterDate(date) {
 	const today = new Date()
 	const pastDate = new Date(date)
