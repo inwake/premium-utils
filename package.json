@@ -1,6 +1,6 @@
 {
   "name": "premium-utils",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "High quality utility functions coded by hand in Italy. Award winning algorithms setting the standard for clean code and reusability. Unrivaled in network requests, formatting, conversions, and much more",
   "keywords": ["premium", "utility", "util", "useful", "network requests", "http", "https", "time", "color", "formatting", "conversions", "prototype", "extensions"],
   "homepage": "https://github.com/inwake/premium-utils",
